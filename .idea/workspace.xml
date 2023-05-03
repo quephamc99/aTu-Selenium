@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e845908-1b2d-473f-843e-7a65c53544b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/components/global/header/topmenu/TopMenuComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/components/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/components/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_flow/global/FooterTestFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_flow/global/FooterTestFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/global/footer/FooterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/global/footer/FooterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/url/Urls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/url/Urls.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2OJGoadi0GjCeMS0dMb1T2mcGVv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Selenium/selenium-k8-web/src/test/resources/drivers",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Selenium\selenium-k8-web\src\test\resources\drivers" />
+      <recent name="D:\Selenium\selenium-k8-web\src\test\java\models\components" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="models.components" />
+      <recent name="tests.global.footer" />
+      <recent name="POM_tests" />
+      <recent name="models.pages" />
+      <recent name="support.ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Smoke-test">
+    <configuration name="FooterTest.testFooterFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-k8-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.global.footer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.global.footer" />
+      <option name="MAIN_CLASS_NAME" value="tests.global.footer.FooterTest" />
+      <option name="METHOD_NAME" value="testFooterFlow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Smoke-test" type="TestNG">
+      <module name="selenium-k8-web" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="D:\Selenium\selenium-k8-web\src\test\resources\testsuites\smoke-test.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Smoke-test" />
+      <item itemvalue="TestNG.FooterTest.testFooterFlow" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FooterTest.testFooterFlow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e845908-1b2d-473f-843e-7a65c53544b5" name="Changes" comment="" />
+      <created>1681271448448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681271448448</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test_flow/global/FooterTestFlow.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test_flow/global/FooterTestFlow.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/models/components/Component.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
