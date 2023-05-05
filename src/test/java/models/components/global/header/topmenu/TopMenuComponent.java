@@ -5,7 +5,6 @@ import models.components.ComponentCssSelector;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
@@ -29,17 +28,17 @@ public class TopMenuComponent extends Component {
         public WebElement mainCatItemLinkElm(){
             return component.findElement(By.tagName("a"));
         }
-        public List<CatItemComponent> catItemComp(){
+        public List<SublistComponent> sublistComps(){
             Actions actions = new Actions(driver) ;
             actions.moveToElement(component).perform();
-            return findComponents(CatItemComponent.class, driver);
+            return findComponents(SublistComponent.class, driver);
         }
     }
 
 
     @ComponentCssSelector(value=".sublist li a")
-    public static class CatItemComponent extends Component{
-        public CatItemComponent(WebDriver driver, WebElement component) {
+    public static class SublistComponent extends Component{
+        public SublistComponent(WebDriver driver, WebElement component) {
             super(driver, component);
         }
     }

@@ -12,7 +12,7 @@ import org.testng.Assert;
 import url.Urls;
 
 import static models.components.global.header.topmenu.TopMenuComponent.MainCatItem;
-import static models.components.global.header.topmenu.TopMenuComponent.CatItemComponent;
+import static models.components.global.header.topmenu.TopMenuComponent.SublistComponent;
 
 import java.security.SecureRandom;
 import java.time.Duration;
@@ -65,17 +65,17 @@ public class FooterTestFlow {
         //in ra tên của Cat item dc click
         System.out.println(randomMainCatItemElm.getComponent().getText());
         //get sublist
-        List<CatItemComponent> catItemComponents = randomMainCatItemElm.catItemComp();
+        List<SublistComponent> sublistComponents = randomMainCatItemElm.sublistComps();
 
         //Neu Main Category link k cos sub-list thì click link main category
-        if(catItemComponents.isEmpty()){
+        if(sublistComponents.isEmpty()){
             randomMainCatItemElm.mainCatItemLinkElm().click();
         }else {
-            int randomIndex = new SecureRandom().nextInt(catItemComponents.size());
-            CatItemComponent randomCatItemComponents=catItemComponents.get(randomIndex);
-            System.out.println(randomCatItemComponents.getComponent().getText());
-            randomCatHref= randomCatItemComponents.getComponent().getAttribute("href");
-            randomCatItemComponents.getComponent().click();
+            int randomIndex = new SecureRandom().nextInt(sublistComponents.size());
+            SublistComponent randomSublistComponents = sublistComponents.get(randomIndex);
+            System.out.println(randomSublistComponents.getComponent().getText());
+            randomCatHref= randomSublistComponents.getComponent().getAttribute("href");
+            randomSublistComponents.getComponent().click();
         }
 
         try{
